@@ -1,0 +1,12 @@
+.content {
+    grid-area: content;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    & > img {
+        width: 25vw;
+    }
+}
+

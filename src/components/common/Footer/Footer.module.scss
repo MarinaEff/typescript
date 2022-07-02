@@ -1,0 +1,16 @@
+.footer {
+    background-color: #4c4c4c;
+    grid-area: footer;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    & > img {
+        width: 150px;
+        margin-left: 5px;
+    }
+}
